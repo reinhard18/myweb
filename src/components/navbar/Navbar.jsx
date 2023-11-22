@@ -1,3 +1,4 @@
+import Sidebar from "../../sidebar/Sidebar"
 import "./navbar.scss"
 
 import React from 'react'
@@ -5,6 +6,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className="navbar">
+      <Sidebar/>
         <div className="wrapper">
             <span>Reinhard Silaen</span>
             <div className="social">
